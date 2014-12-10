@@ -1,0 +1,5 @@
+user for blueiris
+
+
+user: ubnt
+pass: pubs1234

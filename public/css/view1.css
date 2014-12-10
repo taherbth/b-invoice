@@ -1,0 +1,49 @@
+.SearchListing {
+    background-color: #DAF3F2;
+	background: url(../img/bg-listing.gif);
+   /* //background-image: url(../img/bg-listing.gif);*/
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border: 1px solid #CDEAEA;
+	height:80px;
+	clear:both;
+}
+.SearchListing hover{
+  background-color:#9999FF
+
+}
+div.ListingDetails {
+    display: block;
+    float: left;
+    margin: 10px 2px 5px 21px;
+    overflow: hidden;
+    padding: 0;
+    width: 200px;
+}
+div.ListingDetails ul li {
+   
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.75;
+    list-style: none outside none;
+}
+div.ListingDetails ul {
+    margin: 0 0 10px;
+}
+
+ul {
+    list-style-position: inside;
+}
+div.ListingDetails ul li.Sleeps {
+    border-bottom: 0 none;
+}
+
+div.ListingDetails ul li {
+  
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 1.75;
+    list-style: none outside none;
+}

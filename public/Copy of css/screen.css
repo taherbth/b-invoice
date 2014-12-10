@@ -1,0 +1,34 @@
+#page-top-outer	{
+	background: url(../images/shared/top_bg.jpg) top center repeat-x;
+	border-bottom: 1px solid #7e7e7e;
+	height: 92px;
+	}
+.markcolor {
+    color: #FF0000;
+}
+.n{background: url(../images/login/loginbox_bg.png) no-repeat;
+    font-size: 12px;
+    height: 212px;
+    line-height: 12px;
+    padding-top: 60px;
+    position: relative;
+    width: 508px
+ }
+.markcolor p {
+    color: #AA1660;
+    padding-top: 7px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.login-inp {
+    background: url("../images/login/inp_login.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 28px;
+    padding: 6px 6px 0 10px;
+    width: 204px;
+}

@@ -1,0 +1,96 @@
+body { background: #57a3de; }
+a, a:active, a:link, a:visited { text-decoration:none; color: #FFF; }
+a:hover { text-decoration: underline; color: #CCC; }
+h1 {
+	font-size:24px;
+	font-weight: normal;
+	background: #323b45;
+	padding: 10px;
+	color: #fff;
+	line-height:35px;
+	margin-bottom:0px;
+	margin-top:80px;
+	text-align: center;
+}
+#login {
+	margin: 10px 0px 0px 0px;
+	background: #404b59;
+	padding:20px;
+}
+#login label{ color: #fff; }
+#forgot {
+	margin:0px auto 30px auto;
+	width:235px;
+	text-align: center;
+}
+p.tip {
+	padding-left:20px;
+	display:block;
+	background-image: url(../img/icons/lightbulb.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+p.error {
+	padding-left:20px;
+	display:block;
+	background-image: url(../img/icons/exclamation.gif);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	color: #900;
+}
+.black_button {
+	padding: 10px 20px;
+	background: #57a3de;
+	border: none;
+	cursor: pointer;
+	display: block;
+	color: #fff;
+}
+.inputText {
+	padding:7px;
+	border: none;
+	font-size:12px;
+	color: #666;
+	
+	padding: 10px;
+	width: 100%;
+	background:#fff;
+}
+.forgotlink {
+	margin: 0px;
+  	padding: 0px !important;
+  	border: 0px;
+  	background: transparent url('../img/forgot_bg_span.gif') no-repeat scroll top right;
+  	color: #888 !important;
+  	display:block;
+  	float: left;
+  	height: 30px;
+  	margin-right: 6px;
+  	padding-right: 15px !important;
+  	text-decoration: none;
+  	overflow: hidden;
+  	font-size: 11px;
+  	outline: none !important;
+  	cursor: pointer;
+  	font-weight: bold;
+}
+.forgotlink:hover {
+	color: #666 !important;
+}
+.forgotlink span {
+	background: url('../img/forgot_bg_left.gif') no-repeat left top;
+	display: block;
+	line-height: 25px;
+	padding: 0px 0px 0px 15px;
+	outline: none !important;
+	float:left;	
+	height:30px;
+}
+#forgotform {
+	margin:0px auto;
+	width:280px;
+	padding:10px;
+	border:1px solid #666;
+	background:#CCC;
+	display:none;
+}
