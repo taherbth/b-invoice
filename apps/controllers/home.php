@@ -8,10 +8,10 @@ class Home extends BaseController {
         parent::__construct();
         $this->load->model('organization/info_model');
         $this->lang->load('common', $this->session->userdata('lang_file'));
-        $this->siteTitle = 'Account Soft | ';
+        $this->siteTitle = 'Wab Association Board | ';
     }
 
-    public function index() {
+    public function index() { 
         if ($this->session->userdata('user_id') != "") {
             
              if($this->session->userdata('user_type')=="Admin"){

@@ -130,7 +130,7 @@ class Backend extends BaseController {
  *@return Tab name
  */
    function index() {
-        $this->lang->load('orders', $this->session->userdata('lang_file'));
+		$this->lang->load('orders', $this->session->userdata('lang_file'));
         $this->data['activeTab'] = 'orders';
 		$this->data['mainTab'] = 'orders';
         $this->data['dynamicView'] = 'pages/admin/welcome';
@@ -724,7 +724,6 @@ function check_admin_person_number1($person_number,$id) {
 }
 
     protected function _commonPageLayout($viewName, $cacheIt = FALSE) {
-
         $view = $this->layout->view($viewName, $this->data, TRUE);
 
         $replaces = array(

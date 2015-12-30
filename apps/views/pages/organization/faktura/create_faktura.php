@@ -128,8 +128,6 @@ function start_invoice_new_seq(val){
 <?php echo form_input($fak_invoice_date);?></label>
 <span class="markcolor"><?php echo ucwords(form_error('fak_invoice_date')); ?></span> 
 <span class="markcolor"><?php echo ucwords($invoice_date_error); ?></span> 
-
-
 <label><?php echo $this->lang->line('label_org_customer');?>:
 <select name="fak_send_to_org_customer" id="fak_send_to_org_customer" onchange="send_to_org_customer()">
 <option value=""><?php echo $this->lang->line('label_select_org_customer');?></option>

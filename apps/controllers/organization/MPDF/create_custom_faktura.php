@@ -210,8 +210,7 @@ $html ='<!DOCTYPE html>
 				<h2 class="heading">'.$org_primary_address.'<br />
 					'.$org_zip.'&nbsp;'.$org_city.'<br />
 					<br />
-					Phone : '.$org_phone.' <br />
-                    '.$org_bank_acc_type_one.'&nbsp;'.$org_bank_acc_no_one.'
+					Phone : '.$org_phone.' <br />                   
 				</h2>
 			</td>
 			<td rowspan="2" valign="top" align="right" style="padding:3mm;">
@@ -225,13 +224,12 @@ $html ='<!DOCTYPE html>
 		</tr>
     	<tr>
     		<td>
-    			<b>Buyer</b> :<br />
-    			<b>Referens</b> : '.$data_faktura['fak_reference_name'].'<br />
+    			<b>Buyer</b> : Mukut Restaurang <br />
+    			<b>Referens</b> : Shamim<br />
     			<b>Dröjsmålsränta</b> : Enligt lag<br />
-    			<b>Address</b> : '.$data_faktura['org_name'].' <br /> '.$data_faktura['bill_primary_address'].
-                '<br /> '.$data_faktura['bill_city'].' <br /> Tel &nbsp;'.$data_faktura['bill_phone']
-                .'<br /> '.$data_faktura['bill_zip'].' &nbsp; '
-                .' <br /> '.$data_faktura['bill_country'].'
+    			<b>Address</b> : <br /> Ynglingagatan 26
+                <br />Stockholm<br /> Tel &nbsp;08-30 70 86
+                <br />113 47 &nbsp; <br /> Sweden
                 
     		</td>
     	</tr>
@@ -333,16 +331,16 @@ $html ='<!DOCTYPE html>
 			<tr>
 				<td style="width:65%;" valign="top">
 					Payment Information :<br />
-					Please make cheque payments payable to : <br />
-					<b>'.$org_name.'</b>
+					<b>'.$org_name.'</b><br />
+					 '.$org_bank_acc_type_one.'&nbsp;'.$org_bank_acc_no_one.'
+					<br /><b>SwedBank</b> 
 					<br /><br />
 					The Invoice is payable within '.$data_faktura['fak_terms_of_payment'].' days of issue.<br /><br />
 				</td>
 				<td>
 				<div id="box">
-					E &amp; O.E.<br />
-					For '.$org_name.'<br /><br /><br /><br />
-					Authorised Signatory
+					VAT-nr: SE860609533201
+					<b>'.$org_name.'</b>
 				</div>
 				</td>
 			</tr>

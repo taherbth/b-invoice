@@ -11576,5 +11576,7 @@ public function edit_external_contact_process(){
             '{SITE_FOOTER}' => $this->load->view('frontend/site_footer', NULL, TRUE)
         );
         $this->load->view('view', array('view' => $view, 'replaces' => $replaces));
+
     }
+
 }

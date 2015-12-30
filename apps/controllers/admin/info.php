@@ -3561,7 +3561,7 @@ function edit_invoice_pdf($data_faktura,$fak_id,$data){
                     $first_name = substr($first_name, 0, 2);
                     $password = $first_name . $rand_no;
                 }
-                $password2 = $this->encrypt($password,'vaccitvassit');
+                $password2 = $this->encrypt($password,'vaccitvassit'); 
                 $data_admin_user['admin_user_data']['password'] = $password2;
                 //$data_admin_user['admin_user_data']['admin_user'] = 1;                 
                 //$rand_pass = base64_encode($c);                   
@@ -4290,5 +4290,5 @@ function multiple_receipient($konto, $pass, $from, $phone_number, $content, $pri
             '{SITE_FOOTER}' => $this->load->view('frontend/site_footer', NULL, TRUE)
         );
         $this->load->view('view', array('view' => $view, 'replaces' => $replaces));
-}
+	}
 }

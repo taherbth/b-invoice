@@ -11,8 +11,8 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/adminscentral_new/";
-$config['site_admin_base_url']	= "http://".$_SERVER['HTTP_HOST']."/adminscentral_new/admin";
+$config['base_url']	= "http://".$_SERVER['HTTP_HOST']."/b-invoice/";
+$config['site_admin_base_url']	= "http://".$_SERVER['HTTP_HOST']."/b-invoice/admin";
 /*
 |--------------------------------------------------------------------------
 | Index File

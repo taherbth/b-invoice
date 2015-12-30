@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <title>Dashboard | Adminscentral</title>
+        <title>Dashboard | Web Association Board</title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
 		<link rel="stylesheet/less" type="text/css" href="<?php echo base_url(); ?>public/css/kube.min.css" media="screen" />
@@ -13,8 +13,7 @@
 		<script type="text/javascript" src="<?php echo base_url(); ?>public/js/functions.js"></script>
 	</head>
 <body class="login">
-	
-	
+
 		<!-- 
 	<div class="org-selector">
 		<?php $query=$this->db->query("select * from user_info where approval_status=2 && login_status=2");?>
@@ -29,7 +28,9 @@
 	</div>
 	<a class="btn" href="<?php echo base_url(); ?>main/add_customer"><?php echo $this->lang->line('org_registration_link');?></a> -->
 		<div class="login">	
-		<img src="<?php echo base_url(); ?>public/img/default-logo.png" />
+		<!--
+			<img src="<?php //echo base_url(); ?>public/img/default-logo.png" />
+		-->
           <p class="error"><?php echo $this->session->flashdata('message'); ?></p> 
 <?php echo form_open("home/process_login"); ?>
     	    <p>

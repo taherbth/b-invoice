@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <title>Dashboard | Adminscentral</title>
+		<title>Dashboard | Web Association Board</title>
         <meta name="keywords" content="" />
         <meta name="description" content="" />
 		<link rel="stylesheet/less" type="text/css" href="<?php echo base_url(); ?>public/css/kube.min.css" media="screen" />
@@ -15,7 +15,7 @@
 <body class="login">
 		<div class="login">
 
-<img src="<?php echo base_url(); ?>public/img/default-logo.png" />
+<!--img src="<?php //echo base_url(); ?>public/img/default-logo1.png" / -->
 <!-- <h1><?php echo $this->lang->line('site_admin_login_header');?></h1> -->
       
      <p class="error"><?php echo $this->session->flashdata('message'); ?></p> 
